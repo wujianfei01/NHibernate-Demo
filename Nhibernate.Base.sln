@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nhibernate.Base", "Nhibernate.Base\Nhibernate.Base.csproj", "{B0A876B0-B619-4C60-B0AA-E9183FA5FC3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nhibernate.Entities", "Nhibernate.Entities\Nhibernate.Entities.csproj", "{10846D11-4F4D-4A67-AADB-3CC87B67140D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nhibernate.Mappings", "Nhibernate.Mappings\Nhibernate.Mappings.csproj", "{34158D9C-A252-4B40-BA79-5C974B1767A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject", "UnitTestProject\UnitTestProject.csproj", "{C0D7E67F-7796-483C-9F4B-5E58E2B78DE1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "References", "References", "{78F0C210-5714-4EDC-B3B0-F62AFECF292E}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\..\..\杂七杂八\XN.Transmit.Service\References\Antlr3.Runtime.dll = ..\..\..\..\..\..\杂七杂八\XN.Transmit.Service\References\Antlr3.Runtime.dll
+		..\..\..\..\..\..\杂七杂八\XN.Transmit.Service\References\Castle.DynamicProxy.dll = ..\..\..\..\..\..\杂七杂八\XN.Transmit.Service\References\Castle.DynamicProxy.dll
+		..\..\..\..\..\..\杂七杂八\XN.Transmit.Service\References\icsharpcode.sharpziplib.dll = ..\..\..\..\..\..\杂七杂八\XN.Transmit.Service\References\icsharpcode.sharpziplib.dll
+		..\..\..\..\..\..\杂七杂八\XN.Transmit.Service\References\Iesi.Collections.dll = ..\..\..\..\..\..\杂七杂八\XN.Transmit.Service\References\Iesi.Collections.dll
+		..\..\..\..\..\..\杂七杂八\XN.Transmit.Service\References\log4net.dll = ..\..\..\..\..\..\杂七杂八\XN.Transmit.Service\References\log4net.dll
+		..\..\..\..\..\..\杂七杂八\XN.Transmit.Service\References\NHibernate.dll = ..\..\..\..\..\..\杂七杂八\XN.Transmit.Service\References\NHibernate.dll
+		..\..\..\..\..\..\杂七杂八\XN.Transmit.Service\References\Remotion.Linq.dll = ..\..\..\..\..\..\杂七杂八\XN.Transmit.Service\References\Remotion.Linq.dll
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nhibernate.Dal", "Nhibernate.Dal\Nhibernate.Dal.csproj", "{AF3EB9C4-112C-4E7E-A03F-19DF7362303A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B0A876B0-B619-4C60-B0AA-E9183FA5FC3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0A876B0-B619-4C60-B0AA-E9183FA5FC3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0A876B0-B619-4C60-B0AA-E9183FA5FC3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0A876B0-B619-4C60-B0AA-E9183FA5FC3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10846D11-4F4D-4A67-AADB-3CC87B67140D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10846D11-4F4D-4A67-AADB-3CC87B67140D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10846D11-4F4D-4A67-AADB-3CC87B67140D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10846D11-4F4D-4A67-AADB-3CC87B67140D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34158D9C-A252-4B40-BA79-5C974B1767A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34158D9C-A252-4B40-BA79-5C974B1767A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34158D9C-A252-4B40-BA79-5C974B1767A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34158D9C-A252-4B40-BA79-5C974B1767A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0D7E67F-7796-483C-9F4B-5E58E2B78DE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0D7E67F-7796-483C-9F4B-5E58E2B78DE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0D7E67F-7796-483C-9F4B-5E58E2B78DE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0D7E67F-7796-483C-9F4B-5E58E2B78DE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF3EB9C4-112C-4E7E-A03F-19DF7362303A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF3EB9C4-112C-4E7E-A03F-19DF7362303A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF3EB9C4-112C-4E7E-A03F-19DF7362303A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF3EB9C4-112C-4E7E-A03F-19DF7362303A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

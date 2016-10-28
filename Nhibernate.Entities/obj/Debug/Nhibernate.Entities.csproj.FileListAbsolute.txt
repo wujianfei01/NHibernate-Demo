@@ -1,0 +1,5 @@
+e:\users\administrator\my document\visual studio 2015\Projects\Nhibernate.Base\Nhibernate.Entities\bin\Debug\Nhibernate.Entities.dll
+e:\users\administrator\my document\visual studio 2015\Projects\Nhibernate.Base\Nhibernate.Entities\bin\Debug\Nhibernate.Entities.pdb
+e:\users\administrator\my document\visual studio 2015\Projects\Nhibernate.Base\Nhibernate.Entities\obj\Debug\Nhibernate.Entities.csprojResolveAssemblyReference.cache
+e:\users\administrator\my document\visual studio 2015\Projects\Nhibernate.Base\Nhibernate.Entities\obj\Debug\Nhibernate.Entities.dll
+e:\users\administrator\my document\visual studio 2015\Projects\Nhibernate.Base\Nhibernate.Entities\obj\Debug\Nhibernate.Entities.pdb

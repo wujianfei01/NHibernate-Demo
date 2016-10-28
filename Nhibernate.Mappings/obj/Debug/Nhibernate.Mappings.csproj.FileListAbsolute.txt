@@ -1,0 +1,4 @@
+e:\users\administrator\my document\visual studio 2015\Projects\Nhibernate.Base\Nhibernate.Mappings\bin\Debug\Nhibernate.Mappings.dll
+e:\users\administrator\my document\visual studio 2015\Projects\Nhibernate.Base\Nhibernate.Mappings\bin\Debug\Nhibernate.Mappings.pdb
+e:\users\administrator\my document\visual studio 2015\Projects\Nhibernate.Base\Nhibernate.Mappings\obj\Debug\Nhibernate.Mappings.dll
+e:\users\administrator\my document\visual studio 2015\Projects\Nhibernate.Base\Nhibernate.Mappings\obj\Debug\Nhibernate.Mappings.pdb

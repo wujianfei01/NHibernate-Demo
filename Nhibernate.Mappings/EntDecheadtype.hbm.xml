@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="Nhibernate.Entities"
+                   namespace="Nhibernate.Entities"
+                   xmlns="urn:nhibernate-mapping-2.2">
+  <class name="EntDecheadtype" table="DecHeadType" lazy="true" >
+    <id name="Seqno" column="SeqNo" type="AnsiString">
+      <generator class="assigned"/>
+    </id>
+    <property name="Ieflag" type="AnsiString">
+      <column name="IEFlag" sql-type="string" />
+    </property>
+    <property name="Type" type="AnsiString">
+      <column name="Type" sql-type="string" />
+    </property>
+    <property name="Agentcode" type="AnsiString">
+      <column name="AgentCode" sql-type="string" />
+    </property>
+    <property name="Agentname" type="AnsiString">
+      <column name="AgentName" sql-type="string" />
+    </property>
+    <property name="Apprno" type="AnsiString">
+      <column name="ApprNo" sql-type="string" />
+    </property>
+    <property name="Billno" type="AnsiString">
+      <column name="BillNo" sql-type="string" />
+    </property>
+    <property name="Contrno" type="AnsiString">
+      <column name="ContrNo" sql-type="string" />
+    </property>
+    <property name="Custommaster" type="AnsiString">
+      <column name="CustomMaster" sql-type="string" />
+    </property>
+    <property name="Cutmode" type="AnsiString">
+      <column name="CutMode" sql-type="string" />
+    </property>
+    <property name="Distinateport" type="AnsiString">
+      <column name="DistinatePort" sql-type="string" />
+    </property>
+    <property name="Districtcode" type="AnsiString">
+      <column name="DistrictCode" sql-type="string" />
+    </property>
+    <property name="Feecurr" type="AnsiString">
+      <column name="FeeCurr" sql-type="string" />
+    </property>
+    <property name="Feemark" type="AnsiString">
+      <column name="FeeMark" sql-type="string" />
+    </property>
+    <property name="Feerate" type="AnsiString">
+      <column name="FeeRate" sql-type="string" />
+    </property>
+    <property name="Grosswet" type="AnsiString">
+      <column name="GrossWet" sql-type="string" />
+    </property>
+    <property name="Iedate" type="AnsiString">
+      <column name="IEDate" sql-type="string" />
+    </property>
+    <property name="Ieport" type="AnsiString">
+      <column name="IEPort" sql-type="string" />
+    </property>
+    <property name="Inratio" type="AnsiString">
+      <column name="InRatio" sql-type="string" />
+    </property>
+    <property name="Insurcurr" type="AnsiString">
+      <column name="InsurCurr" sql-type="string" />
+    </property>
+    <property name="Insurmark" type="AnsiString">
+      <column name="InsurMark" sql-type="string" />
+    </property>
+    <property name="Insurrate" type="AnsiString">
+      <column name="InsurRate" sql-type="string" />
+    </property>
+    <property name="Licenseno" type="AnsiString">
+      <column name="LicenseNo" sql-type="string" />
+    </property>
+    <property name="Manualno" type="AnsiString">
+      <column name="ManualNo" sql-type="string" />
+    </property>
+    <property name="Netwt" type="AnsiString">
+      <column name="NetWt" sql-type="string" />
+    </property>
+    <property name="Notes" type="AnsiString">
+      <column name="NoteS" sql-type="string" />
+    </property>
+    <property name="Othercurr" type="AnsiString">
+      <column name="OtherCurr" sql-type="string" />
+    </property>
+    <property name="Othermark" type="AnsiString">
+      <column name="OtherMark" sql-type="string" />
+    </property>
+    <property name="Otherrate" type="AnsiString">
+      <column name="OtherRate" sql-type="string" />
+    </property>
+    <property name="Ownercode" type="AnsiString">
+      <column name="OwnerCode" sql-type="string" />
+    </property>
+    <property name="Ownername" type="AnsiString">
+      <column name="OwnerName" sql-type="string" />
+    </property>
+    <property name="Packno" type="AnsiString">
+      <column name="PackNo" sql-type="string" />
+    </property>
+    <property name="Payway" type="AnsiString">
+      <column name="PayWay" sql-type="string" />
+    </property>
+    <property name="Paymentmark" type="AnsiString">
+      <column name="PaymentMark" sql-type="string" />
+    </property>
+    <property name="Tradecode" type="AnsiString">
+      <column name="TradeCode" sql-type="string" />
+    </property>
+    <property name="Tradecountry" type="AnsiString">
+      <column name="TradeCountry" sql-type="string" />
+    </property>
+    <property name="Trademode" type="AnsiString">
+      <column name="TradeMode" sql-type="string" />
+    </property>
+    <property name="Tradename" type="AnsiString">
+      <column name="TradeName" sql-type="string" />
+    </property>
+    <property name="Trafmode" type="AnsiString">
+      <column name="TrafMode" sql-type="string" />
+    </property>
+    <property name="Trafname" type="AnsiString">
+      <column name="TrafName" sql-type="string" />
+    </property>
+    <property name="Transmode" type="AnsiString">
+      <column name="TransMode" sql-type="string" />
+    </property>
+    <property name="Wraptype" type="AnsiString">
+      <column name="WrapType" sql-type="string" />
+    </property>
+    <property name="Entryid" type="AnsiString">
+      <column name="EntryId" sql-type="string" />
+    </property>
+    <property name="Preentryid" type="AnsiString">
+      <column name="PreEntryId" sql-type="string" />
+    </property>
+    <property name="Ediid" type="AnsiString">
+      <column name="EdiId" sql-type="string" />
+    </property>
+    <property name="Risk" type="AnsiString">
+      <column name="Risk" sql-type="string" />
+    </property>
+    <property name="Copname" type="AnsiString">
+      <column name="CopName" sql-type="string" />
+    </property>
+    <property name="Copcode" type="AnsiString">
+      <column name="CopCode" sql-type="string" />
+    </property>
+    <property name="Entrytype" type="AnsiString">
+      <column name="EntryType" sql-type="string" />
+    </property>
+    <property name="Pdate" type="AnsiString">
+      <column name="PDate" sql-type="string" />
+    </property>
+    <property name="Typistno" type="AnsiString">
+      <column name="TypistNo" sql-type="string" />
+    </property>
+    <property name="Inputername" type="AnsiString">
+      <column name="InputerName" sql-type="string" />
+    </property>
+    <property name="Partenerid" type="AnsiString">
+      <column name="PartenerID" sql-type="string" />
+    </property>
+    <property name="Tgdno" type="AnsiString">
+      <column name="TgdNo" sql-type="string" />
+    </property>
+    <property name="Datasource" type="AnsiString">
+      <column name="DataSource" sql-type="string" />
+    </property>
+    <property name="Decltrnrel" type="AnsiString">
+      <column name="DeclTrnRel" sql-type="string" />
+    </property>
+    <property name="Chksurety" type="AnsiString">
+      <column name="ChkSurety" sql-type="string" />
+    </property>
+    <property name="Billtype" type="AnsiString">
+      <column name="BillType" sql-type="string" />
+    </property>
+    <property name="Agentcodescc" type="AnsiString">
+      <column name="AgentCodeScc" sql-type="string" />
+    </property>
+    <property name="Ownercodescc" type="AnsiString">
+      <column name="OwnerCodeScc" sql-type="string" />
+    </property>
+    <property name="Tradecodescc" type="AnsiString">
+      <column name="TradeCodeScc" sql-type="string" />
+    </property>
+    <property name="Copcodescc" type="AnsiString">
+      <column name="CopCodeScc" sql-type="string" />
+    </property>
+    <property name="Promiseitmes" type="AnsiString">
+      <column name="PromiseItmes" sql-type="string" />
+    </property>
+    <property name="Tradeareacode" type="AnsiString">
+      <column name="TradeAreaCode" sql-type="string" />
+    </property>
+    <property name="ProcessStatus">
+      <column name="process_status" sql-type="int?" />
+    </property>
+    <property name="Filename" type="AnsiString">
+      <column name="filename" sql-type="string" />
+    </property>
+    <property name="Dectype" type="AnsiString">
+      <column name="DecType" sql-type="string" />
+    </property>
+    <property name="Decflag" type="AnsiString">
+      <column name="DecFlag" sql-type="string" />
+    </property>
+  </class>
+</hibernate-mapping>
